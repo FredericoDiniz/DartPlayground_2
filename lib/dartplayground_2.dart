@@ -1,6 +1,6 @@
 import 'package:dartplayground_2/regra_de_tres.dart';
 
-void main(List<String> arguments) {
+void main() {
   calc(
     null,
     2,
