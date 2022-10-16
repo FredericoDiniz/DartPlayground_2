@@ -35,4 +35,18 @@ void main() {
     null,
     36,
   );
+
+  calc(
+    1,
+    2,
+    null,
+    null,
+  );
+
+  calc(
+    1,
+    2,
+    2,
+    4,
+  );
 }

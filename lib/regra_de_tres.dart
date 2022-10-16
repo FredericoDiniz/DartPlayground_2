@@ -43,6 +43,9 @@ void calc(
     print('grupo11 x grupo22 = grupo12 x grupo21');
     print('$grupo11 x $grupo22 = $grupo12 x $grupo21');
     print('${grupo11! * grupo22!} = ${grupo12! * grupo21!} - Ok!!\n\n');
+  } else {
+    print('ERRO!! - Quantidade de variaveis nulas incorreta!!!');
+    print('impossível calcular!!!\n\n');
   }
 }
 
