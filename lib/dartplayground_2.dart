@@ -1,5 +1,38 @@
-import 'package:dartplayground_2/regra_de_tres.dart' as dartplayground_2;
+import 'package:dartplayground_2/regra_de_tres.dart';
 
 void main(List<String> arguments) {
-  print('Hello world: ${dartplayground_2.calculate()}!');
+  calc(
+    null,
+    2,
+    2,
+    4,
+  );
+
+  calc(
+    1,
+    null,
+    2,
+    4,
+  );
+
+  calc(
+    1,
+    2,
+    null,
+    4,
+  );
+
+  calc(
+    1,
+    2,
+    2,
+    null,
+  );
+
+  calc(
+    120,
+    24,
+    null,
+    36,
+  );
 }
